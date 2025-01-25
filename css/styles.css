@@ -32,12 +32,13 @@ h2{
     display:block;
 }
 article{
-background-image: url(file:///Users/brooklyntalbert/Desktop/WEB210/Module02/WidgetCoLogo.gif);
+background-image: url(../WidgetCoLogo.gif);
 background-repeat: no-repeat;
 background-position:center;
 padding-left: 150px;
 padding-right:150px;
 padding-bottom: 20px;
+text-align: justify;
 }
 section{
     border: 2px solid green;
@@ -47,13 +48,13 @@ section{
     background-color:lightyellow;
 }
 footer{
-    border-top: 1px solid lightgray;
+    border-top: 1px solid gray;
     padding-top:5px;
     text-align: right;
     font-style: italic;
-    color: lightgray;
+    color: gray;
     font-family: serif;
 }
 footer a:link{
-    color:lightslategray;
+    color:gray;
 }
