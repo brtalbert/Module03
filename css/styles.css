@@ -1,0 +1,59 @@
+header{
+    text-align:center;
+    font-variant:small-caps;
+    border-bottom: 1px solid #000;
+    padding-bottom:3px;
+    border-top: 1px solid #000;
+    padding-top:3px;
+    border-right: 20px solid #000;
+}
+aside{
+   text-align: right; 
+   border-right: 20px solid darkmagenta;
+   padding-right:10px;
+   padding-top: 5px;
+   padding-left: 50px;
+   float:right;
+}
+aside::first-line{
+    font-weight: bold;
+}
+h1{
+  font-family: serif; 
+  font-size: 45px;
+}
+body{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+    display:block;
+}
+article{
+background-image: url(file:///Users/brooklyntalbert/Desktop/WEB210/Module02/WidgetCoLogo.gif);
+background-repeat: no-repeat;
+background-position:center;
+padding-left: 150px;
+padding-right:150px;
+padding-bottom: 20px;
+}
+section{
+    border: 2px solid green;
+    border-left: 20px solid green;
+    padding:3px;
+    padding-left:20px;
+    background-color:lightyellow;
+}
+footer{
+    border-top: 1px solid lightgray;
+    padding-top:5px;
+    text-align: right;
+    font-style: italic;
+    color: lightgray;
+    font-family: serif;
+}
+footer a:link{
+    color:lightslategray;
+}
